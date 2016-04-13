@@ -8,7 +8,11 @@
 #ifndef BASS_H
 #define BASS_H
 
-#import <Foundation/Foundation.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <CFNetwork/CFNetwork.h>
+#import <Accelerate/Accelerate.h>
+#import <CoreMIDI/CoreMIDI.h>
 
 #ifdef _WIN32
 #include <wtypes.h>

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A71C9DE41CBEAEFF00F8832B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A71C9DD61CBEAEFF00F8832B /* Info.plist */; };
 		A71C9DE51CBEAEFF00F8832B /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71C9DD81CBEAEFF00F8832B /* Dummy.swift */; };
 		A71C9DE61CBEAEFF00F8832B /* SwiftyBass.h in Headers */ = {isa = PBXBuildFile; fileRef = A71C9DDA1CBEAEFF00F8832B /* SwiftyBass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A71C9DE71CBEAEFF00F8832B /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C9DDC1CBEAEFF00F8832B /* libbass.a */; };
@@ -18,6 +17,11 @@
 		A71C9DEC1CBEAEFF00F8832B /* libbassmix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C9DE11CBEAEFF00F8832B /* libbassmix.a */; };
 		A71C9DED1CBEAEFF00F8832B /* libbassopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C9DE21CBEAEFF00F8832B /* libbassopus.a */; };
 		A71C9DEE1CBEAEFF00F8832B /* libbasswv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C9DE31CBEAEFF00F8832B /* libbasswv.a */; };
+		A7CE55371CBEB1ED005E7FF1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CE55361CBEB1ED005E7FF1 /* AudioToolbox.framework */; };
+		A7CE55391CBEB240005E7FF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CE55381CBEB240005E7FF1 /* SystemConfiguration.framework */; };
+		A7CE553B1CBEB250005E7FF1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CE553A1CBEB250005E7FF1 /* CFNetwork.framework */; };
+		A7CE553D1CBEB255005E7FF1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CE553C1CBEB255005E7FF1 /* Accelerate.framework */; };
+		A7CE55401CBEB293005E7FF1 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CE553F1CBEB293005E7FF1 /* CoreMIDI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,11 @@
 		A71C9DE21CBEAEFF00F8832B /* libbassopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassopus.a; sourceTree = "<group>"; };
 		A71C9DE31CBEAEFF00F8832B /* libbasswv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbasswv.a; sourceTree = "<group>"; };
 		A7360F351CBE9E0A0009A548 /* SwiftyBass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CE55361CBEB1ED005E7FF1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A7CE55381CBEB240005E7FF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A7CE553A1CBEB250005E7FF1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A7CE553C1CBEB255005E7FF1 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A7CE553F1CBEB293005E7FF1 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +49,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7CE55371CBEB1ED005E7FF1 /* AudioToolbox.framework in Frameworks */,
+				A7CE55391CBEB240005E7FF1 /* SystemConfiguration.framework in Frameworks */,
+				A7CE553B1CBEB250005E7FF1 /* CFNetwork.framework in Frameworks */,
+				A7CE553D1CBEB255005E7FF1 /* Accelerate.framework in Frameworks */,
+				A7CE55401CBEB293005E7FF1 /* CoreMIDI.framework in Frameworks */,
 				A71C9DE91CBEAEFF00F8832B /* libbassenc.a in Frameworks */,
 				A71C9DEC1CBEAEFF00F8832B /* libbassmix.a in Frameworks */,
 				A71C9DEB1CBEAEFF00F8832B /* libbassmidi.a in Frameworks */,
@@ -104,6 +118,7 @@
 				A71C9DD71CBEAEFF00F8832B /* Dummy */,
 				A71C9DD91CBEAEFF00F8832B /* Headers */,
 				A71C9DDB1CBEAEFF00F8832B /* Vendor */,
+				A7CE553E1CBEB279005E7FF1 /* Frameworks */,
 				A7360F361CBE9E0A0009A548 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +129,18 @@
 				A7360F351CBE9E0A0009A548 /* SwiftyBass.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A7CE553E1CBEB279005E7FF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7CE55361CBEB1ED005E7FF1 /* AudioToolbox.framework */,
+				A7CE55381CBEB240005E7FF1 /* SystemConfiguration.framework */,
+				A7CE553A1CBEB250005E7FF1 /* CFNetwork.framework */,
+				A7CE553C1CBEB255005E7FF1 /* Accelerate.framework */,
+				A7CE553F1CBEB293005E7FF1 /* CoreMIDI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +186,6 @@
 				TargetAttributes = {
 					A7360F341CBE9E0A0009A548 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = J3FXQPLD5W;
 					};
 				};
 			};
@@ -185,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A71C9DE41CBEAEFF00F8832B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +335,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/bass/Vendor",
 					"$(PROJECT_DIR)/SwiftyBass/Vendor",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.orlovalex.bass;
@@ -324,7 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -336,7 +360,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/bass/Vendor",
 					"$(PROJECT_DIR)/SwiftyBass/Vendor",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.orlovalex.bass;
