@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A7360F341CBE9E0A0009A548"
                BuildableName = "SwiftyBass.framework"
-               BlueprintName = "SwiftyBass"
-               ReferencedContainer = "container:SwiftyBass.xcodeproj">
+               BlueprintName = "Bass"
+               ReferencedContainer = "container:Bass.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,8 +47,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A7360F341CBE9E0A0009A548"
             BuildableName = "SwiftyBass.framework"
-            BlueprintName = "SwiftyBass"
-            ReferencedContainer = "container:SwiftyBass.xcodeproj">
+            BlueprintName = "Bass"
+            ReferencedContainer = "container:Bass.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,8 +65,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A7360F341CBE9E0A0009A548"
             BuildableName = "SwiftyBass.framework"
-            BlueprintName = "SwiftyBass"
-            ReferencedContainer = "container:SwiftyBass.xcodeproj">
+            BlueprintName = "Bass"
+            ReferencedContainer = "container:Bass.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

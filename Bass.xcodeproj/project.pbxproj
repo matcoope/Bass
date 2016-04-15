@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A71C9DE51CBEAEFF00F8832B /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71C9DD81CBEAEFF00F8832B /* Dummy.swift */; };
-		A71C9DE61CBEAEFF00F8832B /* SwiftyBass.h in Headers */ = {isa = PBXBuildFile; fileRef = A71C9DDA1CBEAEFF00F8832B /* SwiftyBass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A71C9DE61CBEAEFF00F8832B /* Bass.h in Headers */ = {isa = PBXBuildFile; fileRef = A71C9DDA1CBEAEFF00F8832B /* Bass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A71C9DE71CBEAEFF00F8832B /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C9DDC1CBEAEFF00F8832B /* libbass.a */; };
 		A71C9DE81CBEAEFF00F8832B /* libbassdsd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C9DDD1CBEAEFF00F8832B /* libbassdsd.a */; };
 		A71C9DE91CBEAEFF00F8832B /* libbassenc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C9DDE1CBEAEFF00F8832B /* libbassenc.a */; };
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		A71C9DD61CBEAEFF00F8832B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A71C9DD81CBEAEFF00F8832B /* Dummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
-		A71C9DDA1CBEAEFF00F8832B /* SwiftyBass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyBass.h; sourceTree = "<group>"; };
+		A71C9DDA1CBEAEFF00F8832B /* Bass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bass.h; sourceTree = "<group>"; };
 		A71C9DDC1CBEAEFF00F8832B /* libbass.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbass.a; sourceTree = "<group>"; };
 		A71C9DDD1CBEAEFF00F8832B /* libbassdsd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassdsd.a; sourceTree = "<group>"; };
 		A71C9DDE1CBEAEFF00F8832B /* libbassenc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassenc.a; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		A71C9DE11CBEAEFF00F8832B /* libbassmix.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassmix.a; sourceTree = "<group>"; };
 		A71C9DE21CBEAEFF00F8832B /* libbassopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassopus.a; sourceTree = "<group>"; };
 		A71C9DE31CBEAEFF00F8832B /* libbasswv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbasswv.a; sourceTree = "<group>"; };
-		A7360F351CBE9E0A0009A548 /* SwiftyBass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7360F351CBE9E0A0009A548 /* Bass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CE55361CBEB1ED005E7FF1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A7CE55381CBEB240005E7FF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A7CE553A1CBEB250005E7FF1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -89,7 +89,7 @@
 		A71C9DD91CBEAEFF00F8832B /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				A71C9DDA1CBEAEFF00F8832B /* SwiftyBass.h */,
+				A71C9DDA1CBEAEFF00F8832B /* Bass.h */,
 			);
 			name = Headers;
 			path = SwiftyBass/Headers;
@@ -126,7 +126,7 @@
 		A7360F361CBE9E0A0009A548 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7360F351CBE9E0A0009A548 /* SwiftyBass.framework */,
+				A7360F351CBE9E0A0009A548 /* Bass.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,16 +150,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A71C9DE61CBEAEFF00F8832B /* SwiftyBass.h in Headers */,
+				A71C9DE61CBEAEFF00F8832B /* Bass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A7360F341CBE9E0A0009A548 /* SwiftyBass */ = {
+		A7360F341CBE9E0A0009A548 /* Bass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7360F3D1CBE9E0A0009A548 /* Build configuration list for PBXNativeTarget "SwiftyBass" */;
+			buildConfigurationList = A7360F3D1CBE9E0A0009A548 /* Build configuration list for PBXNativeTarget "Bass" */;
 			buildPhases = (
 				A7360F301CBE9E0A0009A548 /* Sources */,
 				A7360F311CBE9E0A0009A548 /* Frameworks */,
@@ -170,9 +170,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftyBass;
+			name = Bass;
 			productName = bass;
-			productReference = A7360F351CBE9E0A0009A548 /* SwiftyBass.framework */;
+			productReference = A7360F351CBE9E0A0009A548 /* Bass.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A7360F2F1CBE9E0A0009A548 /* Build configuration list for PBXProject "SwiftyBass" */;
+			buildConfigurationList = A7360F2F1CBE9E0A0009A548 /* Build configuration list for PBXProject "Bass" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -201,7 +201,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7360F341CBE9E0A0009A548 /* SwiftyBass */,
+				A7360F341CBE9E0A0009A548 /* Bass */,
 			);
 		};
 /* End PBXProject section */
@@ -338,7 +338,7 @@
 					"$(PROJECT_DIR)/SwiftyBass/Vendor",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.orlovalex.bass;
-				PRODUCT_NAME = SwiftyBass;
+				PRODUCT_NAME = Bass;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -363,7 +363,7 @@
 					"$(PROJECT_DIR)/SwiftyBass/Vendor",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.orlovalex.bass;
-				PRODUCT_NAME = SwiftyBass;
+				PRODUCT_NAME = Bass;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -371,7 +371,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7360F2F1CBE9E0A0009A548 /* Build configuration list for PBXProject "SwiftyBass" */ = {
+		A7360F2F1CBE9E0A0009A548 /* Build configuration list for PBXProject "Bass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7360F3B1CBE9E0A0009A548 /* Debug */,
@@ -380,7 +380,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7360F3D1CBE9E0A0009A548 /* Build configuration list for PBXNativeTarget "SwiftyBass" */ = {
+		A7360F3D1CBE9E0A0009A548 /* Build configuration list for PBXNativeTarget "Bass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7360F3E1CBE9E0A0009A548 /* Debug */,
