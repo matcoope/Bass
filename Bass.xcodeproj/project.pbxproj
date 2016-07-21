@@ -181,11 +181,12 @@
 		A7360F2C1CBE9E0A0009A548 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Alexander Orlov";
 				TargetAttributes = {
 					A7360F341CBE9E0A0009A548 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -341,6 +342,7 @@
 				PRODUCT_NAME = Bass;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -365,6 +367,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.un4seen.bass;
 				PRODUCT_NAME = Bass;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
