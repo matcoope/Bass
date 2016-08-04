@@ -17,6 +17,7 @@
 		A783DD721CC0D04300C9DF10 /* libbassmix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A783DD671CC0D04300C9DF10 /* libbassmix.a */; };
 		A783DD731CC0D04300C9DF10 /* libbassopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A783DD681CC0D04300C9DF10 /* libbassopus.a */; };
 		A783DD741CC0D04300C9DF10 /* libbasswv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A783DD691CC0D04300C9DF10 /* libbasswv.a */; };
+		A789B6291D537DFF00A6903E /* libtags.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A789B6281D537DFF00A6903E /* libtags.a */; };
 		A7CE55371CBEB1ED005E7FF1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CE55361CBEB1ED005E7FF1 /* AudioToolbox.framework */; };
 		A7CE55391CBEB240005E7FF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CE55381CBEB240005E7FF1 /* SystemConfiguration.framework */; };
 		A7CE553B1CBEB250005E7FF1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CE553A1CBEB250005E7FF1 /* CFNetwork.framework */; };
@@ -37,6 +38,7 @@
 		A783DD671CC0D04300C9DF10 /* libbassmix.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassmix.a; sourceTree = "<group>"; };
 		A783DD681CC0D04300C9DF10 /* libbassopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassopus.a; sourceTree = "<group>"; };
 		A783DD691CC0D04300C9DF10 /* libbasswv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbasswv.a; sourceTree = "<group>"; };
+		A789B6281D537DFF00A6903E /* libtags.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtags.a; sourceTree = "<group>"; };
 		A7CE55361CBEB1ED005E7FF1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A7CE55381CBEB240005E7FF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A7CE553A1CBEB250005E7FF1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -62,6 +64,7 @@
 				A783DD701CC0D04300C9DF10 /* libbassflac.a in Frameworks */,
 				A783DD741CC0D04300C9DF10 /* libbasswv.a in Frameworks */,
 				A783DD6D1CC0D04300C9DF10 /* libbass.a in Frameworks */,
+				A789B6291D537DFF00A6903E /* libtags.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +129,7 @@
 				A783DD671CC0D04300C9DF10 /* libbassmix.a */,
 				A783DD681CC0D04300C9DF10 /* libbassopus.a */,
 				A783DD691CC0D04300C9DF10 /* libbasswv.a */,
+				A789B6281D537DFF00A6903E /* libtags.a */,
 			);
 			name = Vendor;
 			path = Bass/Vendor;
@@ -186,6 +190,8 @@
 				TargetAttributes = {
 					A7360F341CBE9E0A0009A548 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J3FXQPLD5W;
+						DevelopmentTeamName = "Alexander Orlov";
 						LastSwiftMigration = 0800;
 					};
 				};
