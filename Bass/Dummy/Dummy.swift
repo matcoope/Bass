@@ -9,5 +9,6 @@
 public struct ___dummy {
     public func ___dummy() {
         BASS_Init(0, 0, 0, nil, nil)
+        TAGS_Read(0, nil)
     }
 }
