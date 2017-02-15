@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70F7B071E543CB500A9BFCE /* libbass_ape.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7AFA1E543CB500A9BFCE /* libbass_ape.a */; };
+		A70F7B081E543CB500A9BFCE /* libbass_fx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7AFB1E543CB500A9BFCE /* libbass_fx.a */; };
+		A70F7B091E543CB500A9BFCE /* libbass_mpc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7AFC1E543CB500A9BFCE /* libbass_mpc.a */; };
+		A70F7B0A1E543CB500A9BFCE /* libbass_tta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7AFD1E543CB500A9BFCE /* libbass_tta.a */; };
+		A70F7B0B1E543CB500A9BFCE /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7AFE1E543CB500A9BFCE /* libbass.a */; };
+		A70F7B0C1E543CB500A9BFCE /* libbassdsd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7AFF1E543CB500A9BFCE /* libbassdsd.a */; };
+		A70F7B0D1E543CB500A9BFCE /* libbassenc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7B001E543CB500A9BFCE /* libbassenc.a */; };
+		A70F7B0E1E543CB500A9BFCE /* libbassflac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7B011E543CB500A9BFCE /* libbassflac.a */; };
+		A70F7B0F1E543CB500A9BFCE /* libbassmidi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7B021E543CB500A9BFCE /* libbassmidi.a */; };
+		A70F7B101E543CB500A9BFCE /* libbassmix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7B031E543CB500A9BFCE /* libbassmix.a */; };
+		A70F7B111E543CB500A9BFCE /* libbassopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7B041E543CB500A9BFCE /* libbassopus.a */; };
+		A70F7B121E543CB500A9BFCE /* libbasswv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7B051E543CB500A9BFCE /* libbasswv.a */; };
+		A70F7B131E543CB500A9BFCE /* libtags.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70F7B061E543CB500A9BFCE /* libtags.a */; };
+		A70F7B2F1E543D9B00A9BFCE /* BassPluginLoad.c in Sources */ = {isa = PBXBuildFile; fileRef = A70F7B2D1E543D9B00A9BFCE /* BassPluginLoad.c */; };
+		A70F7B331E543DBD00A9BFCE /* Bass.h in Headers */ = {isa = PBXBuildFile; fileRef = A70F7B321E543DBD00A9BFCE /* Bass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A783DD6B1CC0D04300C9DF10 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783DD5E1CC0D04300C9DF10 /* Dummy.swift */; };
-		A783DD6C1CC0D04300C9DF10 /* Bass.h in Headers */ = {isa = PBXBuildFile; fileRef = A783DD601CC0D04300C9DF10 /* Bass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A783DD6D1CC0D04300C9DF10 /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A783DD621CC0D04300C9DF10 /* libbass.a */; };
-		A783DD6E1CC0D04300C9DF10 /* libbassdsd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A783DD631CC0D04300C9DF10 /* libbassdsd.a */; };
-		A783DD6F1CC0D04300C9DF10 /* libbassenc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A783DD641CC0D04300C9DF10 /* libbassenc.a */; };
-		A783DD701CC0D04300C9DF10 /* libbassflac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A783DD651CC0D04300C9DF10 /* libbassflac.a */; };
-		A783DD711CC0D04300C9DF10 /* libbassmidi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A783DD661CC0D04300C9DF10 /* libbassmidi.a */; };
-		A783DD721CC0D04300C9DF10 /* libbassmix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A783DD671CC0D04300C9DF10 /* libbassmix.a */; };
-		A783DD731CC0D04300C9DF10 /* libbassopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A783DD681CC0D04300C9DF10 /* libbassopus.a */; };
-		A783DD741CC0D04300C9DF10 /* libbasswv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A783DD691CC0D04300C9DF10 /* libbasswv.a */; };
-		A789B6291D537DFF00A6903E /* libtags.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A789B6281D537DFF00A6903E /* libtags.a */; };
 		A789B62D1D537FDD00A6903E /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A789B62C1D537FDD00A6903E /* libstdc++.6.0.9.tbd */; };
 		A789B62F1D53801900A6903E /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A789B62E1D53801900A6903E /* libiconv.tbd */; };
 		A7CE55371CBEB1ED005E7FF1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CE55361CBEB1ED005E7FF1 /* AudioToolbox.framework */; };
@@ -28,19 +33,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A70F7AFA1E543CB500A9BFCE /* libbass_ape.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbass_ape.a; sourceTree = "<group>"; };
+		A70F7AFB1E543CB500A9BFCE /* libbass_fx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbass_fx.a; sourceTree = "<group>"; };
+		A70F7AFC1E543CB500A9BFCE /* libbass_mpc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbass_mpc.a; sourceTree = "<group>"; };
+		A70F7AFD1E543CB500A9BFCE /* libbass_tta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbass_tta.a; sourceTree = "<group>"; };
+		A70F7AFE1E543CB500A9BFCE /* libbass.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbass.a; sourceTree = "<group>"; };
+		A70F7AFF1E543CB500A9BFCE /* libbassdsd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassdsd.a; sourceTree = "<group>"; };
+		A70F7B001E543CB500A9BFCE /* libbassenc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassenc.a; sourceTree = "<group>"; };
+		A70F7B011E543CB500A9BFCE /* libbassflac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassflac.a; sourceTree = "<group>"; };
+		A70F7B021E543CB500A9BFCE /* libbassmidi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassmidi.a; sourceTree = "<group>"; };
+		A70F7B031E543CB500A9BFCE /* libbassmix.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassmix.a; sourceTree = "<group>"; };
+		A70F7B041E543CB500A9BFCE /* libbassopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassopus.a; sourceTree = "<group>"; };
+		A70F7B051E543CB500A9BFCE /* libbasswv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbasswv.a; sourceTree = "<group>"; };
+		A70F7B061E543CB500A9BFCE /* libtags.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtags.a; sourceTree = "<group>"; };
+		A70F7B2D1E543D9B00A9BFCE /* BassPluginLoad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BassPluginLoad.c; sourceTree = "<group>"; };
+		A70F7B321E543DBD00A9BFCE /* Bass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bass.h; path = ../Umbrella/Bass.h; sourceTree = "<group>"; };
 		A7360F351CBE9E0A0009A548 /* Bass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A783DD5C1CC0D04300C9DF10 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A783DD5E1CC0D04300C9DF10 /* Dummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
-		A783DD601CC0D04300C9DF10 /* Bass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bass.h; sourceTree = "<group>"; };
-		A783DD621CC0D04300C9DF10 /* libbass.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbass.a; sourceTree = "<group>"; };
-		A783DD631CC0D04300C9DF10 /* libbassdsd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassdsd.a; sourceTree = "<group>"; };
-		A783DD641CC0D04300C9DF10 /* libbassenc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassenc.a; sourceTree = "<group>"; };
-		A783DD651CC0D04300C9DF10 /* libbassflac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassflac.a; sourceTree = "<group>"; };
-		A783DD661CC0D04300C9DF10 /* libbassmidi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassmidi.a; sourceTree = "<group>"; };
-		A783DD671CC0D04300C9DF10 /* libbassmix.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassmix.a; sourceTree = "<group>"; };
-		A783DD681CC0D04300C9DF10 /* libbassopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbassopus.a; sourceTree = "<group>"; };
-		A783DD691CC0D04300C9DF10 /* libbasswv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbasswv.a; sourceTree = "<group>"; };
-		A789B6281D537DFF00A6903E /* libtags.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtags.a; sourceTree = "<group>"; };
 		A789B62A1D537FA600A6903E /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		A789B62C1D537FDD00A6903E /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		A789B62E1D53801900A6903E /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
@@ -63,27 +73,41 @@
 				A7CE553B1CBEB250005E7FF1 /* CFNetwork.framework in Frameworks */,
 				A7CE55401CBEB293005E7FF1 /* CoreMIDI.framework in Frameworks */,
 				A7CE55391CBEB240005E7FF1 /* SystemConfiguration.framework in Frameworks */,
-				A783DD711CC0D04300C9DF10 /* libbassmidi.a in Frameworks */,
-				A783DD6F1CC0D04300C9DF10 /* libbassenc.a in Frameworks */,
-				A783DD731CC0D04300C9DF10 /* libbassopus.a in Frameworks */,
-				A783DD721CC0D04300C9DF10 /* libbassmix.a in Frameworks */,
-				A783DD6E1CC0D04300C9DF10 /* libbassdsd.a in Frameworks */,
-				A783DD701CC0D04300C9DF10 /* libbassflac.a in Frameworks */,
-				A783DD741CC0D04300C9DF10 /* libbasswv.a in Frameworks */,
-				A783DD6D1CC0D04300C9DF10 /* libbass.a in Frameworks */,
-				A789B6291D537DFF00A6903E /* libtags.a in Frameworks */,
+				A70F7B101E543CB500A9BFCE /* libbassmix.a in Frameworks */,
+				A70F7B071E543CB500A9BFCE /* libbass_ape.a in Frameworks */,
+				A70F7B111E543CB500A9BFCE /* libbassopus.a in Frameworks */,
+				A70F7B081E543CB500A9BFCE /* libbass_fx.a in Frameworks */,
+				A70F7B0E1E543CB500A9BFCE /* libbassflac.a in Frameworks */,
+				A70F7B0A1E543CB500A9BFCE /* libbass_tta.a in Frameworks */,
+				A70F7B131E543CB500A9BFCE /* libtags.a in Frameworks */,
+				A70F7B0B1E543CB500A9BFCE /* libbass.a in Frameworks */,
+				A70F7B0C1E543CB500A9BFCE /* libbassdsd.a in Frameworks */,
+				A70F7B121E543CB500A9BFCE /* libbasswv.a in Frameworks */,
+				A70F7B091E543CB500A9BFCE /* libbass_mpc.a in Frameworks */,
+				A70F7B0D1E543CB500A9BFCE /* libbassenc.a in Frameworks */,
+				A70F7B0F1E543CB500A9BFCE /* libbassmidi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A70F7B2C1E543D9B00A9BFCE /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				A70F7B2D1E543D9B00A9BFCE /* BassPluginLoad.c */,
+			);
+			name = Plugins;
+			path = Bass/Plugins;
+			sourceTree = "<group>";
+		};
 		A7360F2B1CBE9E0A0009A548 = {
 			isa = PBXGroup;
 			children = (
 				A783DD5B1CC0D04300C9DF10 /* Config */,
 				A783DD5D1CC0D04300C9DF10 /* Dummy */,
 				A783DD5F1CC0D04300C9DF10 /* Headers */,
+				A70F7B2C1E543D9B00A9BFCE /* Plugins */,
 				A783DD611CC0D04300C9DF10 /* Vendor */,
 				A7CE553E1CBEB279005E7FF1 /* Frameworks */,
 				A7360F361CBE9E0A0009A548 /* Products */,
@@ -119,7 +143,7 @@
 		A783DD5F1CC0D04300C9DF10 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				A783DD601CC0D04300C9DF10 /* Bass.h */,
+				A70F7B321E543DBD00A9BFCE /* Bass.h */,
 			);
 			name = Headers;
 			path = Bass/Headers;
@@ -128,15 +152,19 @@
 		A783DD611CC0D04300C9DF10 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				A783DD621CC0D04300C9DF10 /* libbass.a */,
-				A783DD631CC0D04300C9DF10 /* libbassdsd.a */,
-				A783DD641CC0D04300C9DF10 /* libbassenc.a */,
-				A783DD651CC0D04300C9DF10 /* libbassflac.a */,
-				A783DD661CC0D04300C9DF10 /* libbassmidi.a */,
-				A783DD671CC0D04300C9DF10 /* libbassmix.a */,
-				A783DD681CC0D04300C9DF10 /* libbassopus.a */,
-				A783DD691CC0D04300C9DF10 /* libbasswv.a */,
-				A789B6281D537DFF00A6903E /* libtags.a */,
+				A70F7AFA1E543CB500A9BFCE /* libbass_ape.a */,
+				A70F7AFB1E543CB500A9BFCE /* libbass_fx.a */,
+				A70F7AFC1E543CB500A9BFCE /* libbass_mpc.a */,
+				A70F7AFD1E543CB500A9BFCE /* libbass_tta.a */,
+				A70F7AFE1E543CB500A9BFCE /* libbass.a */,
+				A70F7AFF1E543CB500A9BFCE /* libbassdsd.a */,
+				A70F7B001E543CB500A9BFCE /* libbassenc.a */,
+				A70F7B011E543CB500A9BFCE /* libbassflac.a */,
+				A70F7B021E543CB500A9BFCE /* libbassmidi.a */,
+				A70F7B031E543CB500A9BFCE /* libbassmix.a */,
+				A70F7B041E543CB500A9BFCE /* libbassopus.a */,
+				A70F7B051E543CB500A9BFCE /* libbasswv.a */,
+				A70F7B061E543CB500A9BFCE /* libtags.a */,
 			);
 			name = Vendor;
 			path = Bass/Vendor;
@@ -164,7 +192,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A783DD6C1CC0D04300C9DF10 /* Bass.h in Headers */,
+				A70F7B331E543DBD00A9BFCE /* Bass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +230,7 @@
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = J3FXQPLD5W;
 						DevelopmentTeamName = "Alexander Orlov";
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -239,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A783DD6B1CC0D04300C9DF10 /* Dummy.swift in Sources */,
+				A70F7B2F1E543D9B00A9BFCE /* BassPluginLoad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +297,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -319,6 +349,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -352,6 +383,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Headers";
 				INFOPLIST_FILE = "$(SRCROOT)/Bass/Config/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -360,6 +392,15 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Bass/Vendor",
 				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+					"-all_load",
+					"-Wl",
+					"-lz",
+				);
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.un4seen.bass;
 				PRODUCT_NAME = Bass;
 				SKIP_INSTALL = YES;
@@ -380,6 +421,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Headers";
 				INFOPLIST_FILE = "$(SRCROOT)/Bass/Config/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -388,6 +430,14 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Bass/Vendor",
 				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+					"-all_load",
+					"-Wl",
+					"-lz",
+				);
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.un4seen.bass;
 				PRODUCT_NAME = Bass;
 				SKIP_INSTALL = YES;
