@@ -2,8 +2,8 @@
     <b>BASS</b><br/>
 	Pure Swift module to access <a href="http://un4seen.com/bass.html">libbass</a> from Swift code as a dynamic framework.
 	<br/><br/>
-	<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-brightgreen.svg"/></a>
-	<img src="https://img.shields.io/badge/Swift-3.0.x-blue.svg"/>
+	<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/carthage-compatible-brightgreen.svg"/></a>
+	<img src="https://img.shields.io/badge/swift-3.0.x-blue.svg"/>
 	<a href="https://github.com/Starling-Inc/Bass/releases"><img src="https://img.shields.io/github/release/Starling-Inc/Bass.svg"/></a>
 	<img src="https://img.shields.io/badge/platform-iOS-lightgrey.svg"/>
 </p>
@@ -20,7 +20,7 @@ The only thing you need to use [libbass](http://un4seen.com/bass.html) in your S
 framework as dependency — currently only [Carthage](#carthage) is supported.
 
 #### Carthage
-To add thr dependency, simply add Bass to your `Cartfile`:
+To add the dependency, simply add Bass to your `Cartfile`:
 
 ```
 github "Starling-Inc/Bass" ~> 2.0
