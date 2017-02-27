@@ -41,7 +41,7 @@ func initialize() {
 	BASS_SetConfig(DWORD(BASS_CONFIG_IOS_NOCATEGORY), 1)
 }
 
-func free() throws {
+func free() {
 	BASS_Free()
 }
 ```
