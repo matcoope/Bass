@@ -32,6 +32,8 @@ If you doesn't know what [Carthage](https://github.com/Carthage/Carthage) is, fo
 When you're set up, you can use the module directly:
 
 ```swift
+import Bass
+
 func initialize() {
 	// this is not a part of original library, just convenient method to use it through dynamic module
     BASS_LoadPlugins() 
