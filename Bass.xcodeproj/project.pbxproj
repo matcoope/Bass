@@ -30,7 +30,31 @@
 		A7CE553D1CBEB255005E7FF1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CE553C1CBEB255005E7FF1 /* Accelerate.framework */; };
 		A7CE55401CBEB293005E7FF1 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CE553F1CBEB293005E7FF1 /* CoreMIDI.framework */; };
 		C91C4E8121CBB67F00507D4C /* Bass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7360F351CBE9E0A0009A548 /* Bass.framework */; };
+		C91C4E8B21CBE02700507D4C /* libiconv.tbd in CopyFiles */ = {isa = PBXBuildFile; fileRef = A789B62E1D53801900A6903E /* libiconv.tbd */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		C91C4E8C21CBE02700507D4C /* AudioToolbox.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7CE55361CBEB1ED005E7FF1 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C91C4E8D21CBE02700507D4C /* SystemConfiguration.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7CE55381CBEB240005E7FF1 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C91C4E8E21CBE02700507D4C /* CFNetwork.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7CE553A1CBEB250005E7FF1 /* CFNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C91C4E8F21CBE02700507D4C /* Accelerate.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7CE553C1CBEB255005E7FF1 /* Accelerate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C91C4E9021CBE02700507D4C /* CoreMIDI.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7CE553F1CBEB293005E7FF1 /* CoreMIDI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C91C4E8A21CBE00800507D4C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C91C4E8B21CBE02700507D4C /* libiconv.tbd in CopyFiles */,
+				C91C4E8C21CBE02700507D4C /* AudioToolbox.framework in CopyFiles */,
+				C91C4E8D21CBE02700507D4C /* SystemConfiguration.framework in CopyFiles */,
+				C91C4E8E21CBE02700507D4C /* CFNetwork.framework in CopyFiles */,
+				C91C4E8F21CBE02700507D4C /* Accelerate.framework in CopyFiles */,
+				C91C4E9021CBE02700507D4C /* CoreMIDI.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A70F7AFA1E543CB500A9BFCE /* libbass_ape.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbass_ape.a; sourceTree = "<group>"; };
@@ -203,6 +227,7 @@
 				A7360F311CBE9E0A0009A548 /* Frameworks */,
 				A7360F321CBE9E0A0009A548 /* Headers */,
 				A7360F331CBE9E0A0009A548 /* Resources */,
+				C91C4E8A21CBE00800507D4C /* CopyFiles */,
 			);
 			buildRules = (
 			);
